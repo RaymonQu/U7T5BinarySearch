@@ -45,18 +45,18 @@ public class BinarySearchRunner
     // alongside every search; this prints out what is being checked and what is happening
     
     int[] arr1 = {-10, -6, 0, 2, 12, 14, 17, 23, 35, 45, 49, 55, 81, 100, 108};
-/*
+
     // test when the target is in the middle (found on the first try!)
     int index = BinarySearch.binarySearchPrintedCommentary(arr1, 23);
     System.out.println(index);
     System.out.println("----------------------------------------------------");
-*/
-/*
+
+
     // test when the target is found after TWO iterations 
     index = BinarySearch.binarySearchPrintedCommentary(arr1, 55);
     System.out.println(index);
     System.out.println("----------------------------------------------------");
-*/
+
 /*
     // test when the target is found after THREE iterations 
     index = BinarySearch.binarySearchPrintedCommentary(arr1, 14);
